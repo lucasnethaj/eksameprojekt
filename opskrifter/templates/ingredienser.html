@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<!-- Inkluder en anden fil i dokumentet -->
+		{% include "nav.html" %}
+		<!-- Indsæt en variabel i dokument -->
+		<h2> Find en opskrift der indeholder følgende ingrediens</h2>
+			<ul>
+				{% for ingrediens in ingredienser %}
+				<li><p>{{ ingrediens.type }} {{ ingrediens.antal }}</a></li>
+				{% endfor %}
+			</ul>
+	</body>
+</html>

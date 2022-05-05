@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<!-- Inkluder en anden fil i dokumentet -->
+		{% include "nav.html" %}
+		<!-- Indsæt en variabel i dokument -->
+		<h2> {{ opskrift.titel }} </h2>
+		<p> {{ opskrift.beskrivelse }} </p>
+
+		{% if opskrift.ingredienser %}
+			<ul>
+				{% for ingrediens in opskrift.ingredienser.all %}
+				<li><p>{{ ingrediens.type }} {{ ingrediens.antal }}</a></li>
+				{% endfor %}
+			</ul>
+		{% else %}
+			<p>Ingen ingredienser i denne opskrift ¯\_(ツ)_/¯</p>
+		{% endif %}
+
+		<p> {{ opskrift.instrukser }} </p>
+	</body>
+</html>

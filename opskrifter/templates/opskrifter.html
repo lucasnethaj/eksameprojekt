@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<!-- Inkluder en anden fil i dokumentet -->
+		{% include "nav.html" %}
+		<!-- Indsæt en variabel i dokument -->
+		<h2> Alle Opskrifter </h2>
+		{% if opskrifter %}
+		<ul>
+			{% for opskrift in opskrifter %}
+				<li><a href="/opskrift/{{ opskrift.id }}/">{{ opskrift.titel }}</a></li>
+			{% endfor %}
+		</ul>
+		{% else %}
+		<p>Ingen opskrifter fundet.</p>
+		{% endif %}
+	</body>
+</html>
