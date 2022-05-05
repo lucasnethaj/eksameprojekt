@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   
+
+
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_billedeopskrifter.xml.gz</loc>
+   </sitemap>
+   
+    
+
+
+
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_diverse_index.xml.gz</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_hoejtid.xml.gz</loc>
+   </sitemap>
+
+
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_kategorier-2.xml.gz</loc>
+   </sitemap> 
+     
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_kategorier-3.xml.gz</loc>
+   </sitemap>
+
+
+
+
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_land.xml.gz</loc>
+   </sitemap>
+
+
+
+
+
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_main.xml.gz</loc>
+   </sitemap>
+
+
+ 
+   
+
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_retter-2.xml.gz</loc>
+   </sitemap>
+
+ 
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_retter-3.xml.gz</loc>
+   </sitemap>
+ 
+ 
+ 
+
+   
+   
+   <sitemap>
+      <loc>https://www.dk-kogebogen.dk/sitemap/sitemap_tilberedning.xml.gz</loc>
+   </sitemap>     
+
+
+
+   
+        
+</sitemapindex>

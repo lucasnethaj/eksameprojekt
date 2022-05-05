@@ -1,0 +1,14 @@
+```bash
+$ systemctl start mysqld 	# Få systemd til at starte database serveren
+$ systemctl enable mysqld
+$ mysql -u root -p			# Log ind til database serveren
+```
+
+```MySQL
+> create schema OPSKRIFTER	# Lav databasen
+> GRANT ALL PRIVILEGES ON OPSKRIFTER.* TO '$USER'@'localhost' IDENTIFIED BY '123';# Giv brugeren adgang til databasen
+```
+
+```bash
+mariadb OPSRKIFTER -p
+```
