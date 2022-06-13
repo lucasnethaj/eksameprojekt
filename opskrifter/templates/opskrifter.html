@@ -5,8 +5,10 @@
 		{% include "nav.html" %}
 		<!-- Indsæt en variabel i dokument -->
 		<h2> Alle Opskrifter </h2>
+		<!-- Conditionals -->
 		{% if opskrifter %}
 		<ul>
+			<!-- Loops -->
 			{% for opskrift in opskrifter %}
 				<li><a href="/opskrift/{{ opskrift.id }}/">{{ opskrift.titel }}</a></li>
 			{% endfor %}

@@ -1,6 +1,24 @@
-<h1> Sørens Køkken</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sørens Køkken</title>
+	{% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body style="overflow: hidden">
 
-<a href="/opskrifter">Opskrifter</a>
-<a href="/søg">Søg</a>
-<a href="/køleskab">Mit Køleskab</a>
-<a href="/ingredienser">Ingredienser</a>
+    <div class="topnav">
+        <a class="logo" href="#forside">
+            <div class="logo_image">
+					{% load static %}
+				<img src="{% static 'fav-icon.svg' %" alt="Sørens Køkken"></img>
+            </div>
+        </a>
+		<a href="/opskrifter">Opskrifter</a>
+		<a href="/søg">Søg</a>
+		<a href="/køleskab">Mit Køleskab</a>
+		<a href="/ingredienser">Ingredienser</a>
+    </div>
+</body>
+</html>
